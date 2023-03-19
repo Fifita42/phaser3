@@ -1,0 +1,12 @@
+A continuación enumero algunas propiedades básicas del sprite:
+
+this.doggy50.flipX = true; (Girar la sprite horizontalmente).
+this.doggy50.flipY = true; (Girar la sprite verticalmente).
+this.doggy50.setVisible(0); (0, ocultar sprite, 1 mostrar sprite).
+this.doggy50.setScale(scalaX,scalaY);(Escalar sprite)
+this.doggy50.setAlpha(1); (Transparencia)
+this.doggy50.setTint(color en hexadecimal); (solo funciona con WebGL)
+this.doggy50.x = numero; (Posición en la escena)
+this.doggy50.y = numero; (Posición en la escena)
+this.doggy50.angle = 0; (Giro del sprite en grados).
+this.doggy50.setDepth(0); (Profundidad de los sprites, de 0 en adelante).
