@@ -1,0 +1,14 @@
+ const keys = Phaser.Input.Keyboard.KeyCodes;     
+    this.keyZ = this.input.keyboard.addKey(keys.Z);
+
+            this.keyZ.on('down', () => {
+                console.log("Has presionado la tecla Z");
+            });
+
+
+Si ponemos esta función en el método "create" solamente se ejecutará una vez.
+Para que funcione en el "update" haríamos lo siguiente:
+
+if (Phaser.Input.Keyboard.JustDown(this.keyZ)){
+        console.log("Has presionado Z");
+    }
